@@ -49,7 +49,7 @@
       "icon": "./renderer/img/favicon.ico"
     },
     "nsis": {
-      "oneClick": false
+      "oneClick": true
     },
     "directories": {
       "output": "./dist/"
