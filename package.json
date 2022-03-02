@@ -1,18 +1,10 @@
 {
   "name": "blockoli",
-<<<<<<< HEAD
   "version": "2.0.5",
-=======
-  "version": "2.0.0",
->>>>>>> 7e54e17bd1037f5b26a164ae985ba98227ef0e9f
   "description": "Brockoli is a block coding editor for Arduino.",
   "main": "main/main.js",
   "scripts": {
     "start": "SET \"NODE_ENV=develop\" && electron .",
-<<<<<<< HEAD
-=======
-    "dev": "SET \"NODE_ENV=develop\" && electron dev",
->>>>>>> 7e54e17bd1037f5b26a164ae985ba98227ef0e9f
     "publish": "SET \"NODE_ENV=production\" && electron-builder --win -p always"
   },
   "repository": {
