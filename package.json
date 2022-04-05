@@ -34,7 +34,7 @@
     "electron-updater": "^4.3.9"
   },
   "build": {
-    "productName": "blockoli",
+    "productName": "Blockoli",
     "appId": "com.github.i33w.blockoli2",
     "asar": false,
     "publish": [
@@ -54,8 +54,6 @@
     "directories": {
       "output": "./dist/"
     },
-    "files": [
-      "!.vscode${/*}"
-    ]
+    "files": ["!.vscode${/*}"]
   }
 }
