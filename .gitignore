@@ -113,13 +113,17 @@ renderer/
 .eslintrc.js
 .prettierrc.js
 package-lock.json
-<<<<<<< HEAD
 .vscode/
 node_modules
 dist-test/
 .git-d/
 .gitignore-d
 package-d.json
-=======
 .vscode/
->>>>>>> 7e54e17bd1037f5b26a164ae985ba98227ef0e9f
+
+t.gitignore
+t.git
+tpackage.json
+d.gitignore
+d.git
+dpackage.json

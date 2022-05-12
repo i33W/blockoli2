@@ -34,7 +34,7 @@
     "electron-updater": "^4.3.9"
   },
   "build": {
-    "productName": "Blockoli",
+    "productName": "Blockoli2",
     "appId": "com.github.i33w.blockoli2",
     "asar": false,
     "publish": [
@@ -49,7 +49,11 @@
       "icon": "./renderer/img/favicon.ico"
     },
     "nsis": {
-      "oneClick": true
+      "createDesktopShortcut": "always",
+      "oneClick": true,
+      "perMachine": true,
+      "language": 1042,
+      "include": "build/installer.nsh"
     },
     "directories": {
       "output": "./dist/"
